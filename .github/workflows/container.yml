@@ -6,11 +6,11 @@ on:
       - main
       - master
     paths:
-      - 'packages/container/**'
+      - 'Example2/container/**'
 
 defaults:
   run:
-    working-directory: packages/container
+    working-directory: Example2/container
 
 # jobs that will run
 jobs:
